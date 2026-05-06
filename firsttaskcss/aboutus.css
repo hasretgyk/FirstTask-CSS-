@@ -1,0 +1,30 @@
+ body {
+        background-color: lightcoral;
+    }
+    a {
+        background-color: white;
+        color: black;
+        margin-left: 17%;
+        border: 2px solid darkblue;
+        border-radius: 3px;
+    }
+    h1 {
+        text-align: center;
+        color: white;
+        margin-top: 14px;
+        margin-left: 45%;
+        width: 140px;
+        border: 3px solid aqua;
+        border-radius: 15px;
+        
+    }
+    p.two {
+        text-align: center;
+        color: white;
+        border: 1px white solid;
+        background-color:brown;
+        border-width: thick;
+        margin-inline: 32%;
+        padding: 25px;
+    }
+    

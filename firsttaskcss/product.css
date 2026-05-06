@@ -1,0 +1,42 @@
+body{
+      background-image: url(https://wallpapershome.com/images/pages/pic_h/28165.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    h1{
+      background-color: goldenrod;
+      text-align: center;
+      text-shadow: 3px 4px 5px red;
+      margin-left:45%;
+      margin-right:45%;
+      border: 1.4px solid black;
+      border-radius:10px;
+    }
+    a {
+      border:2px solid black;
+      color: black;
+      background-color: lightcoral;
+      padding:3px;
+      margin-left:17%;
+    }
+    h2{
+      padding-top: 2%;
+      margin-left: 25%;
+      color: darkmagenta;
+      text-transform: capitalize;
+    }
+
+    ol{
+      margin-left: 26%;
+      color:rgb(14, 0, 211);
+      font-size: x-large;
+    }
+    table, td, th{
+      text-align: center;
+      margin: auto;
+      border: 1px solid black;
+      background-color: goldenrod;
+      border-radius: 5px;
+      width: 45%;
+      font-size: x-large;
+    }

@@ -1,0 +1,48 @@
+            body{
+                background-color: cadetblue;
+
+            }
+            h1 {
+                text-align: center;
+                background-color:white;
+                font-family: 'Courier New', Courier, monospace;
+                color:black;
+                height: 34px;
+                width: 275px;
+                margin:auto;
+                margin-top:35px;
+                border: 3px solid darkred;
+                border-radius: 8px;
+                
+            }
+            a {
+                margin-left: 17.1%;
+                color: yellow;
+                border:1px solid red;
+
+                
+            }
+            p {
+                color:yellow;
+            }
+            label {
+                color: yellow;
+                margin-top: 15px;
+                padding-top: 15px;
+            }
+            label.one {
+                color: pink;  
+            }
+             label.two {
+                color: aqua;  
+            }
+            div {
+                background-color: gray;
+                border-style:  solid dotted;
+                border-width: 6px;
+                height: 600px;
+                width: 300px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 25px;
+            }

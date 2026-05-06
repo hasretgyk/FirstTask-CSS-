@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="firsttaskcss/contact.css">
+    </head>
+<body>
+<title>Contact</title>
+<h1>İletişim Formu</h1>
+
+<a href="maintask.html">Anasayfa</a>
+<a href="aboutus.html">Biz Kimiz</a>
+<a href="product.html">Ürünler</a>
+<a href="contact.html">İletişim</a>
+<div>
+<form>
+<br>
+<label for="isim">Adınız</label><br>
+<input type="text" id="isim" required>
+<br><br>
+
+<label for="lname">Soyadınız</label>
+<br>
+<input type="text" id="lname" required>
+<br>
+
+<p>Cinsiyetiniz</p>
+<input type=radio id="kadin" name="cinsiyet" value="kadin">
+<label class="one" for="kadin">Kadın</label>
+<br>
+<input type="radio" for="erkek" name="cinsiyet" value="erkek">
+<label class="two" for="erkek">Erkek</label>
+<br><br>
+<label for="yas">Yaş</label><br>
+<input type="text" id="yas" required>
+<br><br>
+<label for="sehir">Şehir</label>
+<br>
+<input type="text" id="sehir" required>
+<br><br>
+<label for="ulke">Ülke</label>
+<br>
+ <select name="cars" id="cars">
+     <option value="turkey">Türkiye</option> 
+     <option value="usa">ABD</option>
+     <option value="canada">Kanada</option>
+ </select>
+
+<br>
+<br>
+<label for="addfile">Dosya Ekle</label>
+<br>
+<input type="file" id="addfile">
+<br><br>
+<label for="mail">E-mail</label><br>
+<input type="email" id="mail" required placeholder="ornek@mail.com">
+<br><br>
+<input type="submit" value="İletişime geç">
+
+</form>
+</div>
+</body>
+</html>
